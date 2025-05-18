@@ -1,0 +1,446 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+    }header {
+  background-image: url('https://cdn.glitch.global/e51bc890-93e6-4452-b46b-e7a7fb50326e/Latar.png?v=1747044889044');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%; 
+  
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); 
+  
+  border: 3px solid #f0f0f0; 
+  
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-family: 'Blackletter', serif;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li::before {
+  content: "• ";
+  color: #f39c12;
+} 
+
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Blackletter', cursive;
+  color: #ffffff;
+}
+
+a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+header img {
+  filter: drop-shadow(0 0 10px #ff0000) drop-shadow(0 0 20px #ff0000);
+  transition: transform 0.3s ease;
+}
+
+header img:hover {
+  transform: scale(1.05);
+}
+
+audio {
+  display: none;
+}
+
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #00ff00;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.button1 {
+  background-color: #ff00ff ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+
+.button2 {
+  background-color: #ff00A0 ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+
+.button3 {
+  background-color: #0000ff ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+
+.button4 {
+  background-color: #ff0000 ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+
+.button0 {
+  background-color: #2fc6bb ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+ 
+ .button01 {
+  background-color: #ffc652 ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+
+.button02 {
+  background-color: #bc8e72 ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+
+.button03 {
+  background-color: #2a192e ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+
+.button04 {
+  background-color: #fffaeb ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+ 
+ .button05 {
+  background-color: #fffefa ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+ 
+ .button06 {
+  background-color: #fffaf0 ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+ 
+ .button07 {
+  background-color: #fffbf0 ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+ 
+ .button08 {
+  background-color: #fffffb ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+ 
+ .button09 {
+  background-color: #fed0d0 ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+
+.button010 {
+  background-color: #fffcf0 ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+ 
+.button {
+  background-color: #0032ff ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+ 
+.buttonn {
+  background-color: #189D0E ;;
+  color: white;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+ 
+ .gambar-jaket {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.gambar-jaket img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+ li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+/* Floating Window */
+#musicPlayerWindow {
+  width: 300px;
+  background: royalblue;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  z-index: 999;
+  overflow: hidden;
+}
+
+#minimizedBubble {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 55px;
+  height: 55px;
+  background-color: #25d366;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  
+  cursor: pointer;
+  z-index: 9999;
+  touch-action: none;
+  transition: left 0.2s ease, right 0.2s ease; /* animasi snap */
+}
+
+#minimizedBubble i {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.window-header {
+  background: #000;
+  color: red;
+  padding: 10px;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#toggleBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.window-body {
+  padding: 10px;
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 6px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  transition: background 0.2s;
+}
+
+li:hover {
+  background: #ffcb0a;
+}
+
+li.active {
+  font-weight: bold;
+  color: green;
+  background-color: #0000ff;
+}
+
+#playlist {
+  max-height: 150px; /* Batasi tinggi */
+  overflow-y: auto;  /* Scroll vertikal kalau penuh */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#audioPlayer {
+  display: none;
+}
